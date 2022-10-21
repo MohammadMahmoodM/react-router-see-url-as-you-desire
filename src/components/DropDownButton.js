@@ -12,9 +12,9 @@ export default function SplitButton() {
         {/*#contained-buttons*/}
         <Link to="/"><Button variant="contained" color="primary" alignItems="center" >Home</Button></Link>
         <Link to="/LadiesProducts"><Button variant="contained" color="primary" Link="LadiesProducts" alignItems="center" >Ladies Shoes</Button></Link>
-        <Button variant="contained" color="primary" Link="MensProducts" alignItems="center" >Mens Shoes</Button>
-        <Button variant="contained" color="primary" Link="KidsProducts" alignItems="center" >Kids Shoes</Button>
-        <Button variant="contained" color="primary" Link="about" alignItems="center" >About Me</Button>
+        <Link to="/MensProducts"><Button variant="contained" color="primary" href="MensProducts" alignItems="center" >Mens Shoes</Button></Link>
+        <Link to="/KidsProducts"><Button variant="contained" color="primary" href="KidsProducts" alignItems="center" >Kids Shoes</Button></Link>
+        <Link to="/about"><Button variant="contained" color="primary" Link="about" alignItems="center" >About Me</Button></Link>
       </Grid>
     </Grid>
   );
